@@ -1,0 +1,27 @@
+{
+  "name": "fuzzy-octo-umbrella",
+  "version": "0.1.0",
+  "description": "![License](https://img.shields.io/badge/license-AGPL-3.0license-blue.svg) ![Version](https://img.shields.io/badge/version-0.1.0-green.svg)",
+  "homepage": "https://github.com/lled2027/fuzzy-octo-umbrella#readme",
+  "bugs": {
+    "url": "https://github.com/lled2027/fuzzy-octo-umbrella/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lled2027/fuzzy-octo-umbrella.git"
+  },
+  "license": "AGPL-3.0",
+  "author": "Sayem Mozumder",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "debug": "^4.4.3",
+    "express": "^5.3.0",
+    "morgan": "^1.12.1",
+    "pug": "^3.0.4"
+  }
+}
