@@ -16,9 +16,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev1": "nodemon index.js"
   },
   "dependencies": {
+    "better-sqlite3": "^13.0.3",
     "cookie-parser": "^1.4.7",
     "debug": "^4.4.3",
     "dotenv": "^18.0.8",
