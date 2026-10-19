@@ -1,4 +1,4 @@
-
+import 'dotenv/config'
 import {createServer} from 'http'
 import app from './server/app.js'
 import debugFactory from 'debug'
@@ -7,7 +7,7 @@ import {handlerServerError} from './server/routes/errorsHandler.js'
 
 const appDebug = debugFactory('app:main')
 const server = createServer(app)
-const port = process.env.PORT || 1234
+const port = process.env.PORT
 
 
 server.on('error', (error) => handlerServerError(error, port))
